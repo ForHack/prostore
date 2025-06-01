@@ -76,9 +76,8 @@ export const config = {
                         }
                     )
                 }
-
-                return token
             }
+            return token
         },
         authorized({request, auth}: any) {
             // Check for session cart cookie
